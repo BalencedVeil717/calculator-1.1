@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="shortcut icon" href="./favicon.png" type="image/png">
+    <script src="./main.js"></script>
+    <title>Calculate</title>
+</head>
+
+<body>
+
+    <div class="content"> 
+      
+     <div class="time">
+        <p id="p" class="p"><b>.</b></p>
+       <i class='fa fa-battery power'></i>
+        </div>
+    <div class="inputs">
+        <br>
+        <input type="number" id="a" class="inp" placeholder="x">
+        <input type="number" id="b" class="inp" placeholder="y">
+    </div>
+    
+    <br>
+  
+    <div class="buttons">
+        <button type="button" class="btn " onclick="add()">| &#43 |</button>
+        <button type="button" class="btn " onclick="sub()">| &#8722 |</button>
+        <button type="button" class="btn " onclick="div()">| &#xF7 |</button>
+        <button type="button" class="btn " onclick="mult()">| &#xd7 |</button>
+        <button type="button" class="btn " onclick="root()">|&radic;<span class="bar">x</span>|</button>
+        <button type="button" class="btn " onclick="sqrt()">|x&sup2;|</button>
+    </div>
+  
+    <br><br><br>
+   
+    <div class="screen" id="screen1"><p class="here">ANSWER</p></div>
+    </div>
+   
+   </div>
+
+    
+</body>
+
+</html>
