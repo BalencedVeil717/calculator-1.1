@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
 
 <body>
 
-    <div class="content"> 
+    <div class="calculator"> 
       
      <div class="time">
         <p id="p" class="p"><b>.</b></p>
@@ -22,30 +22,25 @@
         </div>
     <div class="inputs">
         <br>
-        <input type="number" id="a" class="inp" placeholder="x">
-        <input type="number" id="b" class="inp" placeholder="y">
+        <input type="number" id="a" placeholder="x">
+        <input type="number" id="b" placeholder="y">
     </div>
     
     <br>
   
     <div class="buttons">
-        <button type="button" class="btn " onclick="add()">| &#43 |</button>
-        <button type="button" class="btn " onclick="sub()">| &#8722 |</button>
-        <button type="button" class="btn " onclick="div()">| &#xF7 |</button>
-        <button type="button" class="btn " onclick="mult()">| &#xd7 |</button>
-        <button type="button" class="btn " onclick="root()">|&radic;<span class="bar">x</span>|</button>
-        <button type="button" class="btn " onclick="sqrt()">|x&sup2;|</button>
-    </div>
-  
-    <br><br><br>
-   
-    <div class="screen" id="screen1"><p class="here">ANSWER</p></div>
-    </div>
-   
-   </div>
-
+        <button type="button" onclick="add()">&#43</button>
+        <button type="button" onclick="sub()">&#8722</button>
+        <button type="button" onclick="div()">&#xF7</button>
+        <button type="button" onclick="mult()">&#xd7</button>
+        <button type="button" onclick="root()">&radic;<span class="bar">x</span></button>
+        <button type="button" onclick="sqrt()">x&sup2;</button>
+    </div>   
+    <div class="screen" id="screen1"><p>ANSWER</p></div>
+    </div
     
 </body>
 
 </html>
+
 <!-- By BalencedVeil717 -->
